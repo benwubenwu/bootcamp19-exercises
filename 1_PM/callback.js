@@ -14,5 +14,16 @@ const getUser = callback => {
     lastName: "Doe",
     guess: Math.round(Math.random())
   };
-  callback(user);
+  callback(user["guess"], tellUser);
 };
+
+const tellUser = result => {
+  if (result) {
+    console.log("correct");
+  }
+  else {
+    console.log("incorrect");
+  }
+}
+
+getUser(coinToss);
