@@ -4,7 +4,7 @@
 
 ### Introduction: Todo Site
 
-Your task for the next few daysis to create a 'Todo Tracker' website. This single-page website should be able to perform the following actions:
+Your task for the next few days is to create a 'Todo Tracker' website. This single-page website should be able to perform the following actions:
 
 - Add todos to a list
 - Delete todos once they have been added
