@@ -8,6 +8,7 @@ Component called "Middle" containing "Header" component and containing <ul> and 
     "List" includes "Task" and "Del". Has conditional rendering (ternary boolean) if there are tasks otherwise has text "No to-dos".
     "Task" includes Object "value".
     "Del" pop() Object from array of tasks based on "id" and callback to "ListItems".
+
 Component called "Bottom" containing "Search" component. 
-    "Search" filter() by substring that retrieves "value" from Form and async/await. Create new array with only those filtered elements and connect back to "ListItems" to display them in a list. Conditional rendering (ternary boolean) either show the filtered elements or "no results found".
+    "Search" will filter() by substring that retrieves "value" from Form and async/await. Create new array with only those filtered elements and connect back to "ListItems" to display them in a list. Conditional rendering (ternary boolean) either show the filtered elements or "no results found".
 
