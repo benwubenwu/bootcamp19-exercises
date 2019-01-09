@@ -1,0 +1,13 @@
+body.home {
+    background-image: url('https://imgnooz.com/sites/default/files/wallpaper/movies/60170/sesame-street-wallpapers-60170-4881520.jpg');
+    background-repeat: no-repeat;
+}
+
+h1.hometitle {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
